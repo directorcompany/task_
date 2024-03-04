@@ -1,3 +1,10 @@
+<html>
+ <head>
+  <title>Главная странциа</title>
+ </head>
+ <body>
+ </body>
+</html>
 <?php
 $token = "6968842126:AAHfYXGRtGw5IvN48QpGsXToc445ojsRcdk";
  $chat_id = '133776412';
@@ -14,3 +21,4 @@ $send_message_url = "https://api.telegram.org/bot" . $token . "/sendMessage?chat
 
 file_get_contents($send_message_url);
 echo file_get_contents(__DIR__ . '/message.txt');
+?>
